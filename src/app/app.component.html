@@ -1,14 +1,9 @@
-<app-nav-bar></app-nav-bar>
-<footer>
-  <p>&copy;{{currentYear}} by Egemen Çiftci. All Rights Reserved.</p>
-  <p>
-    <span class="va-middle">Powered by </span>
-    <a class="va-middle" href="https://angular.io/">
-      <img border="0" alt="Angular" src="assets/angular.svg" height="20">
-    </a>
-    <span class="va-middle"> and </span>
-    <a class="va-middle" href="https://firebase.google.com/">
-      <img border="0" alt="Firebase" src="assets/firebase.svg" height="20">
-    </a>
-  </p>
-</footer>
+<app-nav-bar #navBar></app-nav-bar>
+<ng-container [ngSwitch]="navBar.selectedPage">
+  <div *ngSwitchCase="1" [innerHTML]="dataService.getAboutContent()"></div>
+  <div *ngSwitchCase="2" [innerHTML]="dataService.getContactContent()"></div>
+  <ng-container *ngSwitchDefault>
+    <app-card *ngFor="let c of dataService.getHomeContent()" [context]="c"></app-card>
+  </ng-container>
+</ng-container>
+<app-footer></app-footer>

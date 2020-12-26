@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {DataService} from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Egemen Çiftci';
-  currentYear = new Date().getFullYear();
+
+  constructor(private dataService: DataService) {
+  }
 }
