@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "egemenciftci"
+  "defaultProject": "egemenciftci",
+  "cli": {
+    "analytics": "69355f81-e25b-4865-863a-5e14af653928"
+  }
 }
