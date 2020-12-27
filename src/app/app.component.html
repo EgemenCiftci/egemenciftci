@@ -1,9 +1,3 @@
-<app-nav-bar #navBar></app-nav-bar>
-<ng-container [ngSwitch]="navBar.selectedPage">
-  <div *ngSwitchCase="1" [innerHTML]="dataService.getAboutContent()"></div>
-  <div *ngSwitchCase="2" [innerHTML]="dataService.getContactContent()"></div>
-  <ng-container *ngSwitchDefault>
-    <app-card *ngFor="let c of dataService.getHomeContent()" [context]="c"></app-card>
-  </ng-container>
-</ng-container>
+<app-header></app-header>
+<router-outlet></router-outlet>
 <app-footer></app-footer>

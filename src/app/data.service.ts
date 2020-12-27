@@ -21,7 +21,7 @@ export class DataService {
     return (data as any).contact;
   }
 
-  getHomeContent(): any[] {
+  getArticles(): any[] {
     return (data as any).home;
   }
 }

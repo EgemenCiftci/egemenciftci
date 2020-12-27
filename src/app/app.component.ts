@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {DataService} from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +8,6 @@ import {DataService} from './data.service';
 export class AppComponent {
   title = 'Egemen Çiftci';
 
-  constructor(private dataService: DataService) {
+  constructor() {
   }
 }

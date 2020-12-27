@@ -1,6 +1,16 @@
 <nav>
-  <button (click)="navigateHome()">Egemen Çiftci</button>
-  <button (click)="navigateHome()">Home</button>
-  <button (click)="navigateAbout()">About</button>
-  <button (click)="navigateContact()">Contact</button>
+  <a mat-button routerLink="">
+    <img class="avatar-img" src="./assets/avatar.jpg" alt="Avatar">
+    <span class="avatar-text">Egemen Çiftci</span>
+  </a>
+  <a mat-button routerLink="/articles" routerLinkActive="active-button">Home</a>
+  <a mat-button routerLink="/about" routerLinkActive="active-button">About</a>
+  <a mat-button routerLink="/contact" routerLinkActive="active-button">Contact</a>
+  <div class="flex-spacer"></div>
+  <a mat-button href="https://www.linkedin.com/in/egemen-%C3%A7iftci-2352b731/">
+    <img class="social-img" src="./assets/linkedin.svg" alt="LinkedIn">
+  </a>
+  <a mat-button href="https://github.com/EgemenCiftci">
+    <img class="social-img" src="./assets/github.svg" alt="GitHub">
+  </a>
 </nav>
