@@ -9,3 +9,8 @@ footer {
 img {
   height: 20px;
 }
+
+a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
