@@ -13,6 +13,7 @@ import {ArticlesComponent} from './articles/articles.component';
 import {ArticleComponent} from './article/article.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import {MatButtonModule} from '@angular/material/button';
       {path: '**', component: PageNotFoundComponent}
     ]),
     MatButtonModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

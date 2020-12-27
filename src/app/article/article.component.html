@@ -1,5 +1,7 @@
-<article>
-  <h1>{{article.title}}</h1>
-  <h6>{{articleDate}}</h6>
-  <div [innerHTML]="article.content"></div>
-</article>
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>{{article.title}}</mat-card-title>
+    <mat-card-subtitle>{{articleDate}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content [innerHTML]="article.content"></mat-card-content>
+</mat-card>
