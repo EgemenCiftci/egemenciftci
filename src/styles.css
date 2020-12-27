@@ -6,3 +6,11 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.content-padding {
+  padding: 80px 32px 8px 32px;
+}
+
+.primary {
+  background: #3f51b5;
+}

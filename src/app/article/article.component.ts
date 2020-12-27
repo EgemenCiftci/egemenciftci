@@ -7,10 +7,12 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
   @Input() article: any;
+  articleDate: string;
 
   constructor() {
   }
 
   ngOnInit(): void {
+    this.articleDate = new Date(this.article.date).toLocaleString();
   }
 }

@@ -4,31 +4,37 @@
   "home": [
     {
       "id": 0,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 0",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     },
     {
       "id": 1,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 1",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     },
     {
       "id": 2,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 2",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     },
     {
       "id": 3,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 3",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     },
     {
       "id": 4,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 4",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     },
     {
       "id": 5,
+      "date": "2014-01-01T23:28:56.782Z",
       "title": "Test Title 5",
       "content": "<p>This is a sample content.</p><p>This is a sample content.</p><p>This is a sample content.</p>"
     }
