@@ -4,6 +4,8 @@ footer {
   align-items: center;
   padding: 8px 32px;
   color: #fff;
+  font-size: 12px;
+  height: 64px;
 }
 
 img {

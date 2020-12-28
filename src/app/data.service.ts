@@ -13,15 +13,7 @@ export class DataService {
     return data;
   }
 
-  getAboutContent(): string {
-    return (data as any).about;
-  }
-
-  getContactContent(): string {
-    return (data as any).contact;
-  }
-
   getArticles(): any[] {
-    return (data as any).home;
+    return (data as any).articles;
   }
 }

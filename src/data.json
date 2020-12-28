@@ -1,7 +1,5 @@
 {
-  "about": "<p>This is a sample about content.</p><p>This is a sample about content.</p><p>This is a sample about content.</p>",
-  "contact": "<p>This is a sample contact content.</p><p>This is a sample contact content.</p><p>This is a sample contact content.</p>",
-  "home": [
+  "articles": [
     {
       "id": 0,
       "date": "2014-01-01T23:28:56.782Z",
