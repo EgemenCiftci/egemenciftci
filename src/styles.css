@@ -7,8 +7,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.content-padding {
+.content {
   padding: 80px 32px 8px 32px;
+  min-height: calc(100vh - 129px);
 }
 
 .primary {

@@ -10,7 +10,10 @@ img {
   height: 20px;
 }
 
-a {
+.ml-4 {
   margin-left: 4px;
+}
+
+.mr-4 {
   margin-right: 4px;
 }
