@@ -14,6 +14,7 @@ import {ArticleComponent} from './article/article.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import {MatCardModule} from '@angular/material/card';
     ]),
     MatButtonModule,
     MatCardModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,11 +9,15 @@ export class DataService {
   constructor() {
   }
 
-  getData(): any {
-    return data;
+  private getData(): any {
+    return data.default;
   }
 
   getArticles(): any[] {
-    return (data as any).articles;
+    return this.getData().articles;
+  }
+
+  getTags(): any[] {
+    return this.getData().tags;
   }
 }
