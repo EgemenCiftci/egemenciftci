@@ -5,3 +5,16 @@
 ::ng-deep .mat-card-header-text {
   margin: 0!important;
 }
+
+::ng-deep mat-card-footer {
+  padding: 16px!important;
+}
+
+::ng-deep mat-card-content iframe {
+  width: 100%;
+  height: 475px;
+}
+
+mat-card-subtitle {
+  font-size: 10px;
+}

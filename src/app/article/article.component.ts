@@ -16,6 +16,6 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit(): void {
     this.articleDate = new Date(this.article.date).toLocaleString();
-    this.articleTags = this.article.tags.map(f => this.dataService.getTags().find(g => g.id === f).name);
+    this.articleTags = this.article.tags?.map(f => this.dataService.getTags().find(g => g.id === f).name);
   }
 }

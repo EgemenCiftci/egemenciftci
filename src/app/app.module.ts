@@ -15,6 +15,7 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatChipsModule} from '@angular/material/chips';
+import { SafePipe } from './pipes/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {MatChipsModule} from '@angular/material/chips';
     ArticlesComponent,
     ArticleComponent,
     PageNotFoundComponent,
+    SafePipe,
   ],
   imports: [
     BrowserModule,

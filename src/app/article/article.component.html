@@ -3,7 +3,7 @@
     <mat-card-title>{{article.title}}</mat-card-title>
     <mat-card-subtitle>{{articleDate}}</mat-card-subtitle>
   </mat-card-header>
-  <mat-card-content [innerHTML]="article.content"></mat-card-content>
+  <mat-card-content [innerHTML]="article.content | safe"></mat-card-content>
   <mat-card-footer>
     <mat-chip-list>
       <mat-chip *ngFor="let t of articleTags">{{t}}</mat-chip>
